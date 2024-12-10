@@ -1,0 +1,17 @@
+collections_config:
+  pages:
+    path: src/content/work
+    name: Pages
+    icon: wysiwyg
+  nested:
+    path: src/content/work/nested
+    name: Nested
+    icon: feed
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Pacific/Auckland
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
